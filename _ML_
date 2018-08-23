@@ -1,4 +1,9 @@
-机器学习有一点很重要，这是我从这个项目总结的：模型要进行迭代修正，即反向传播。要通过各个维度，不同阶段的数据进行完善模型;
-要看你提取的特征向量维度，经过这个项目维度数量的不同，反复验证得出“三木板模型”即维度是3时能够达到最佳效果，博彩公司是一个个个体，
-而现在是收集N个博彩公司的数据，A博彩公司可以提供假情报，但是B\C\D\E不可能在一场比赛同时提供假情报，
-所以我摸索的“三木板模型”就是基于三个木板确定一个稳定的几何图形，也就是说三个博彩公司能够确定一个比赛的赛果
+Machine learning is very important, and this is what I sum up from this project: the model needs to be iteratively modified, 
+that is, back propagation. We should improve the model through data from different dimensions and stages.
+Depending on the dimension of the feature vectors you extract, after repeated verification of the different number of dimensions 
+in this project, it is concluded that the best effect can be achieved when the dimension is 3, and the gambling company is 
+an individual.
+Now it's time to collect data from N gambling companies. A can provide false information, but BCDE can't provide false information 
+at the same time in a game.
+So the "three-board model" I'm exploring is based on three boards to determine a stable geometry, that is, 
+three gambling companies can determine the outcome of a game.
