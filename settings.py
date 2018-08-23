@@ -16,15 +16,14 @@ NEWSPIDER_MODULE = 'peilv.spiders'
 
 # USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
 # USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
-#解决DEBUG: Ignoring response <403 http://movie.douban.com/top250>: HTTP status code is not handled or not allowed
+
 # USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.54 Safari/536.5'
 user_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"
 FEED_URI = 'file:///e:/Python learning/pc_ex/peilv/PeiLv.csv'
 FEED_FORMAT = 'csv'
 FEED_EXPORTERS = {
     'csv': 'peilv.spiders.itemcsvexporter.itemcsvexporter',
-}  # 这里假设你的project名字为peilv
-#指定输出到csv文件中字段的顺序，结合itemcsvexporter.py
+} 
 FIELDS_TO_EXPORT = [
 
     'cc',
@@ -45,8 +44,8 @@ FIELDS_TO_EXPORT = [
 
 # Obey robots.txt rules
 # ROBOTSTXT_OBEY = True
-ROBOTSTXT_OBEY = False #当用cookies时候要设置为false
-# LOG_LEVEL ='WARNING' #默认 ‘DEBUG’，
+ROBOTSTXT_OBEY = False 
+# LOG_LEVEL ='WARNING' 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
