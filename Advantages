@@ -1,0 +1,37 @@
+1. The accuracy rate is high, reaching 80%.
+
+2. Predition time is early, can be made 1 days ahead of FootBall Game schedule.
+
+3. Not affected by personal emotions, the predition result is entirely exported by the program.
+
+4. Do not be affected by trader's hand, ignore the change of the plate.
+
+5. The prediction model is a process of "iteration and correction of historical odds combination", which conforms to 
+the theory of back propagation algorithm in machine learning and predicts the result of large data odds combination.
+
+6. Updating forecasting model data constantly, with the gradual increase of historical data, 
+the accuracy will continue to improve,and stable in high accuracy.
+
+7. Systematically describe predictive rules, process historical data, observe how predictions have behaved in the past, 
+and then rationally improve these predictive rules according to specific results.
+
+8. It will also incorporate new rules and predictive rules that may be overlooked by the program 
+(e.g. program 1.0 only considers the odds of major spinach companies, program 2.0 adds dimension to the league, 
+and program 3.0 adds periodic data as a new predictive rule).
+At this point, the prediction ability of the program is much improved, more precise, faster, and free from emotional interference.
+
+9. It is not blindly following the suggestion of procedure, but at the same time of procedure prediction, 
+I also analyze (combining the basic aspects, especially the historical confrontation), and then compare the two. 
+When the decision of the procedure is different from mine, I will check the reason.
+
+
+1、准确率高，达到80%左右
+2、时间早，可以提前1天做出程序预测
+3、不受个人情绪影响，完全由程序输出看好的比赛
+4、不受操盘手影响，无视盘口的变化
+5、预测模型是一个“历史赔率组合不断迭代修正”的过程，符合机器学习中的反向传播算法理论，以大数据赔率组合情况产生的结果做预测
+6、不断更新预测模型的数据，随着历史数据的逐渐增加，准确率会不断提高，并稳定在高准确率
+7、系统化的方式描述预测规则，处理历史数据，观察预测在过去的表现如何，进而根据具体结果合理的改进这些预测规则
+8、还会结合新的规则、程序目前可能忽略的预测规则（如程序1.0版本只考虑了各大菠菜公司的赔率，程序2.0就增加了联赛的维度，程序3.0又增加了阶段性数据作为新的预测规则），
+此时的程序预测能力就提高了很多，更精确、更快、更不受情绪干扰
+9、并不是盲从程序的建议，而在程序预测的同时，本人也进行分析（结合基本面尤其是历史交锋），然后对二者进行对比。当程序的决策与我不同，我会检查原因。
