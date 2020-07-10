@@ -7,8 +7,7 @@ Now it's time to collect data from N gambling companies. A can provide false inf
 at the same time in a game.
 So the "three-board model" I'm exploring is based on three boards to determine a stable geometry, that is, 
 three gambling companies can determine the outcome of a game.
-
-三木板模型算法论文地址：http://wanfangdata.com.cn 搜索“基于机器学习的预测算法模型及其在环评领域的应用”
+ 
 注：在一场比赛开始前，菠菜公司90%是知道赛果的，他们已经有精算师分析基本面、伤病等信息，我只要站在他们的肩膀上进一步分析就可以了。（无需再分析基本面等信息）
 当时FBP整个项目学习都是靠以下进行学习，在此感谢作者！希望大家参考后也能建立属于自己的机器学习项目！
 PS：内容风趣幽默，关键是零基础！
